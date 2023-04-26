@@ -4,7 +4,7 @@
 >Existem diversas formar de criar o seu cluster Kubernetes, aqui, o objetivo vai ser criar o seu cluster de forma on-premisse utilizando o kubeadm.
 >
 >Você pode utilizar o kubeadm em qualquer abordagem on-premisse de uso do Kubernetes, seja máquinas virtuais, máquinas baremetal e até mesmo Raspberry Pi.
-
+>Neste projeto você pode realizar a instalação das ferramentas do kubenertes de forma manual, como é descrito abaixo, ou pode utilizar o script bash, chamado `instalacao-kube.sh`, que realiza a instalação do kubernetes de forma automática.   
 # Setup do Ambiente
 
 >Aqui eu vou mostrar como criar um cluster Kubernetes utilizando 2 máquinas, uma máquina vai ter o papel de Control Plane e a outra de Worker Nodes. Lembrando que dessa forma eu não estou criando um cluster com alta disponibilidade ou HA. Pois eu tenho apenas um control plane e caso ele fique fora do ar, o cluster vai ficar inoperável. Então utiliza esse setup em ambientes de estudo, teste, desenvolvimento e caso você não preciso de alta disponibilidade, homologação. NUNCA utilize em PRODUÇÃO
